@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "invoiceNumber": "INV-2024001",
+    "salesOrderId": "2",
+    "customerId": "2",
+    "issueDate": "2024-01-18T10:00:00Z",
+    "dueDate": "2024-02-17T10:00:00Z",
+    "totalAmount": 1629.87,
+    "status": "sent"
+  },
+  {
+    "id": "2",
+    "invoiceNumber": "INV-2024002",
+    "salesOrderId": "1",
+    "customerId": "1",
+    "issueDate": "2024-01-20T14:30:00Z",
+    "dueDate": "2024-02-19T14:30:00Z",
+    "totalAmount": 1152.50,
+    "status": "pending"
+  }
+]

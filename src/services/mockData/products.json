@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "sku": "WH-001",
+    "name": "Industrial Steel Bolts M12x50",
+    "description": "High-grade stainless steel bolts suitable for heavy-duty industrial applications",
+    "quantity": 850,
+    "reorderPoint": 200,
+    "unitPrice": 2.45,
+    "supplierId": "1",
+    "location": "Warehouse A-15"
+  },
+  {
+    "id": "2",
+    "sku": "WH-002",
+    "name": "Premium Copper Wire 12AWG",
+    "description": "Residential and commercial grade copper electrical wire, 500ft roll",
+    "quantity": 45,
+    "reorderPoint": 50,
+    "unitPrice": 125.99,
+    "supplierId": "2",
+    "location": "Warehouse B-08"
+  },
+  {
+    "id": "3",
+    "sku": "WH-003",
+    "name": "Heavy Duty PVC Pipes 4inch",
+    "description": "Durable PVC piping for plumbing and drainage systems, 10ft length",
+    "quantity": 180,
+    "reorderPoint": 75,
+    "unitPrice": 18.75,
+    "supplierId": "1",
+    "location": "Warehouse C-22"
+  },
+  {
+    "id": "4",
+    "sku": "WH-004",
+    "name": "LED Flood Lights 100W",
+    "description": "Energy-efficient LED flood lights with 5-year warranty, IP65 rated",
+    "quantity": 25,
+    "reorderPoint": 30,
+    "unitPrice": 89.99,
+    "supplierId": "3",
+    "location": "Warehouse D-05"
+  },
+  {
+    "id": "5",
+    "sku": "WH-005",
+    "name": "Commercial Paint Rollers",
+    "description": "Professional grade paint rollers, 9-inch medium nap, pack of 12",
+    "quantity": 120,
+    "reorderPoint": 40,
+    "unitPrice": 24.50,
+    "supplierId": "2",
+    "location": "Warehouse A-33"
+  }
+]
