@@ -1,88 +1,88 @@
-import Home from '../pages/Home';
-import Dashboard from '../pages/Dashboard';
-import Inventory from '../pages/Inventory';
-import PurchaseOrders from '../pages/PurchaseOrders';
-import SalesOrders from '../pages/SalesOrders';
-import Suppliers from '../pages/Suppliers';
-import Customers from '../pages/Customers';
-import Invoices from '../pages/Invoices';
-import ProductDetails from '../pages/ProductDetails';
-import OrderDetails from '../pages/OrderDetails';
-import NotFound from '../pages/NotFound';
+import HomePage from '@/components/pages/HomePage';
+import DashboardPage from '@/components/pages/DashboardPage';
+import InventoryPage from '@/components/pages/InventoryPage';
+import PurchaseOrdersPage from '@/components/pages/PurchaseOrdersPage';
+import SalesOrdersPage from '@/components/pages/SalesOrdersPage';
+import SuppliersPage from '@/components/pages/SuppliersPage';
+import CustomersPage from '@/components/pages/CustomersPage';
+import InvoicesPage from '@/components/pages/InvoicesPage';
+import ProductDetailsPage from '@/components/pages/ProductDetailsPage';
+import OrderDetailsPage from '@/components/pages/OrderDetailsPage';
+import NotFoundPage from '@/components/pages/NotFoundPage';
 
 export const routes = {
   home: {
     id: 'home',
-    label: 'Home',
+label: 'Home',
     path: '/',
     icon: 'Home',
-    component: Home
+    component: HomePage
   },
   dashboard: {
     id: 'dashboard',
     label: 'Dashboard',
     path: '/dashboard',
     icon: 'LayoutDashboard',
-    component: Dashboard
+    component: DashboardPage
   },
   inventory: {
     id: 'inventory',
     label: 'Inventory',
     path: '/inventory',
     icon: 'Package',
-    component: Inventory
+    component: InventoryPage
   },
   purchaseOrders: {
     id: 'purchaseOrders',
     label: 'Purchase Orders',
     path: '/purchase-orders',
     icon: 'ShoppingCart',
-    component: PurchaseOrders
+    component: PurchaseOrdersPage
   },
   salesOrders: {
     id: 'salesOrders',
     label: 'Sales Orders',
     path: '/sales-orders',
     icon: 'TrendingUp',
-    component: SalesOrders
+    component: SalesOrdersPage
   },
   suppliers: {
     id: 'suppliers',
     label: 'Suppliers',
     path: '/suppliers',
     icon: 'Truck',
-    component: Suppliers
+    component: SuppliersPage
   },
   customers: {
     id: 'customers',
     label: 'Customers',
     path: '/customers',
     icon: 'Users',
-    component: Customers
+    component: CustomersPage
   },
   invoices: {
     id: 'invoices',
     label: 'Invoices',
     path: '/invoices',
     icon: 'FileText',
-    component: Invoices
+    component: InvoicesPage
   },
   productDetails: {
     id: 'productDetails',
     path: '/product/:id',
-    component: ProductDetails,
+    component: ProductDetailsPage,
     hidden: true
   },
   orderDetails: {
     id: 'orderDetails',
     path: '/order/:type/:id',
-    component: OrderDetails,
+    component: OrderDetailsPage,
     hidden: true
   },
   notFound: {
     id: 'notFound',
     path: '*',
-    component: NotFound,
+component: NotFoundPage,
     hidden: true
   }
 };
